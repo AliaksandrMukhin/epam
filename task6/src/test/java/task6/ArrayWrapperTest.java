@@ -7,6 +7,7 @@ public class ArrayWrapperTest {
 
     @Test
     public void testGet_String() {
+        System.out.println("Hello from test!!");
         ArrayWrapper<String> wrapper = new ArrayWrapper<>(new String[]{"1", "2", "3", "4"});
         Assert.assertEquals("2", wrapper.get(2));
     }
